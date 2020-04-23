@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-
-<html class="no-js" lang="en-US">
-
-	<head>
-
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-
-		<link rel="profile" href="https://gmpg.org/xfn/11">
-
-		<title>TV Script Generation</title>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Images as functions</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="http://www.vision-01.com/index.php/feed/" />
 <link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="http://www.vision-01.com/index.php/comments/feed/" />
-		<script>
+		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.vision-01.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4"}};
 			/*! This file is auto-generated */
 			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
-		<style>
+		<style type="text/css">
 img.wp-smiley,
 img.emoji {
 	display: inline !important;
@@ -32,332 +28,185 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='http://www.vision-01.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4' media='all' />
-<link rel='stylesheet' id='codemirror-css'  href='http://www.vision-01.com/wp-content/plugins/wp-codemirror-block/vendor/codemirror/lib/codemirror.min.css?ver=5.40.5' media='all' />
-<link rel='stylesheet' id='codemirror-blocks--css'  href='http://www.vision-01.com/wp-content/plugins/wp-codemirror-block/assets/blocks/blocks.style.build.min.css?ver=1587294739' media='all' />
-<link rel='stylesheet' id='twentytwenty-style-css'  href='http://www.vision-01.com/wp-content/themes/twentytwenty/style.css?ver=1.2' media='all' />
-<style id='twentytwenty-style-inline-css'>
-.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #1f7cb7; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #1f7cb7; }button:not(.toggle),.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #1f7cb7; }.fill-children-accent,.fill-children-accent * { fill: #1f7cb7; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #d9eaf6; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #d9eaf6; }.social-icons a,body:not(.overlay-header) .primary-menu ul,.header-footer-group button,.header-footer-group .button,.header-footer-group .faux-button,.header-footer-group .wp-block-button:not(.is-style-outline) .wp-block-button__link,.header-footer-group .wp-block-file__button,.header-footer-group input[type="button"],.header-footer-group input[type="reset"],.header-footer-group input[type="submit"] { color: #586884; }#site-header,.footer-nav-widgets-wrapper,#site-footer,.menu-modal,.menu-modal-inner,.search-modal-inner,.archive-header,.singular .entry-header,.singular .featured-media:before,.wp-block-pullquote:before { background-color: #586884; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #ffffff; }body:not(.overlay-header) .primary-menu ul { background-color: #ffffff; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #ffffff; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #ffffff; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #f0f3f3; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #6c7f9d; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #6c7f9d; }
+	<link rel='stylesheet' id='wp-quicklatex-format-css'  href='http://www.vision-01.com/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://www.vision-01.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='codemirror-blocks--css'  href='http://www.vision-01.com/wp-content/plugins/wp-codemirror-block/assets/blocks/blocks.style.build.min.css?ver=1587294739' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-style-grid-css'  href='http://www.vision-01.com/wp-content/themes/generatepress/css/unsemantic-grid.min.css?ver=2.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='generate-style-css'  href='http://www.vision-01.com/wp-content/themes/generatepress/style.min.css?ver=2.4.2' type='text/css' media='all' />
+<style id='generate-style-inline-css' type='text/css'>
+body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:1100px;}.wp-block-group__inner-container{max-width:1100px;margin-left:auto;margin-right:auto;}body, button, input, select, textarea{font-family:"Open Sans", sans-serif;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1.5em;}.main-navigation .main-nav ul ul li a{font-size:14px;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a,.top-bar a:visited{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;color:#3a3a3a;}.site-header a,.site-header a:visited{color:#3a3a3a;}.main-title a,.main-title a:hover,.main-title a:visited{color:#222222;}.site-description{color:#757575;}.main-navigation,.main-navigation ul ul{background-color:#222222;}.main-navigation .main-nav ul li a,.menu-toggle{color:#ffffff;}.main-navigation .main-nav ul li:hover > a,.main-navigation .main-nav ul li:focus > a, .main-navigation .main-nav ul li.sfHover > a{color:#ffffff;background-color:#3f3f3f;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#3f3f3f;}.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#3f3f3f;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a{color:#ffffff;background-color:#3f3f3f;}.main-navigation ul ul{background-color:#3f3f3f;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:hover > a,.main-navigation .main-nav ul ul li:focus > a,.main-navigation .main-nav ul ul li.sfHover > a{color:#ffffff;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#4f4f4f;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.entry-meta{color:#595959;}.entry-meta a,.entry-meta a:visited{color:#595959;}.entry-meta a:hover{color:#1e73be;}.sidebar .widget{background-color:#ffffff;}.sidebar .widget .widget-title{color:#000000;}.footer-widgets{background-color:#ffffff;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#222222;}.site-info a,.site-info a:visited{color:#ffffff;}.site-info a:hover{color:#606060;}.footer-bar .widget_nav_menu .current-menu-item a{color:#606060;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.button:visited,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#666666;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f3f3f;}.generate-back-to-top,.generate-back-to-top:visited{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}.generate-back-to-top:hover,.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header, .wp-block-group__inner-container{padding:30px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}@media (max-width:768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}@font-face {font-family: "GeneratePress";src:  url("http://www.vision-01.com/wp-content/themes/generatepress/fonts/generatepress.eot");src:  url("http://www.vision-01.com/wp-content/themes/generatepress/fonts/generatepress.eot#iefix") format("embedded-opentype"),  url("http://www.vision-01.com/wp-content/themes/generatepress/fonts/generatepress.woff2") format("woff2"),  url("http://www.vision-01.com/wp-content/themes/generatepress/fonts/generatepress.woff") format("woff"),  url("http://www.vision-01.com/wp-content/themes/generatepress/fonts/generatepress.ttf") format("truetype"),  url("http://www.vision-01.com/wp-content/themes/generatepress/fonts/generatepress.svg#GeneratePress") format("svg");font-weight: normal;font-style: normal;}
 </style>
-<link rel='stylesheet' id='twentytwenty-print-style-css'  href='http://www.vision-01.com/wp-content/themes/twentytwenty/print.css?ver=1.2' media='print' />
-<script src='http://www.vision-01.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-<script src='http://www.vision-01.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script src='http://www.vision-01.com/wp-content/themes/twentytwenty/assets/js/index.js?ver=1.2' async></script>
+<link rel='stylesheet' id='generate-mobile-style-css'  href='http://www.vision-01.com/wp-content/themes/generatepress/css/mobile.min.css?ver=2.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.vision-01.com/wp-content/themes/generatepress/css/font-awesome.min.css?ver=4.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.vision-01.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://www.vision-01.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.vision-01.com/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0'></script>
 <link rel='https://api.w.org/' href='http://www.vision-01.com/index.php/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.vision-01.com/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.vision-01.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='next' title='Camera Technology' href='http://www.vision-01.com/index.php/2020/04/22/camera-technology/' />
 <meta name="generator" content="WordPress 5.4" />
 <link rel="canonical" href="http://www.vision-01.com/index.php/2020/04/19/new/" />
 <link rel='shortlink' href='http://www.vision-01.com/?p=25' />
 <link rel="alternate" type="application/json+oembed" href="http://www.vision-01.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttp://www.vision-01.com%2Findex.php%2F2020%2F04%2F19%2Fnew%2F" />
 <link rel="alternate" type="text/xml+oembed" href="http://www.vision-01.com/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttp://www.vision-01.com%2Findex.php%2F2020%2F04%2F19%2Fnew%2F&#038;format=xml" />
-	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
-	<style id="custom-background-css">
-body.custom-background { background-color: #ffffff; }
-</style>
-	<link rel="icon" href="http://www.vision-01.com/wp-content/uploads/2020/04/cropped-Computer-Vision-3-32x32.jpg" sizes="32x32" />
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="http://www.vision-01.com/wp-content/uploads/2020/04/cropped-Computer-Vision-3-32x32.jpg" sizes="32x32" />
 <link rel="icon" href="http://www.vision-01.com/wp-content/uploads/2020/04/cropped-Computer-Vision-3-192x192.jpg" sizes="192x192" />
 <link rel="apple-touch-icon" href="http://www.vision-01.com/wp-content/uploads/2020/04/cropped-Computer-Vision-3-180x180.jpg" />
 <meta name="msapplication-TileImage" content="http://www.vision-01.com/wp-content/uploads/2020/04/cropped-Computer-Vision-3-270x270.jpg" />
-		<style id="wp-custom-css">
-			h1.entry-title {
-    font-size: 72px !important;
-    color: whitesmoke !important;
-    #font-family: cursive !important;
-}
-.singular .entry-header {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
-}
-.site-description {
-    #font-size:23px !important;
-    #color: darkred !important;
-    #font-family: cursive !important;
-    #font-weight: bold !important;
-}
-body.page {
-    background-image: url("http://www.vision-01.com/wp-content/uploads/2020/04/0.jpeg");
-    background-position: center center;
-    background-size: cover;
-}
-		</style>
+</head>
+
+<body class="post-template-default single single-post postid-25 single-format-standard wp-embed-responsive right-sidebar nav-below-header fluid-header separate-containers active-footer-widgets-3 nav-aligned-left header-aligned-left dropdown-hover" itemtype="https://schema.org/Blog" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+							</div><!-- .inside-header -->
+		</header><!-- #masthead -->
+				<nav id="site-navigation" class="main-navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menu</span>				</button>
+						<div id="primary-menu" class="main-nav">
+			<ul class="menu sf-menu">
+				<li class="page_item page-item-8"><a href="http://www.vision-01.com/">Vision &#8211; 01</a></li>
+<li class="page_item page-item-19"><a href="http://www.vision-01.com/index.php/about/">About</a></li>
+<li class="page_item page-item-175 current-menu-parent"><a href="http://www.vision-01.com/index.php/posts/">Blog</a></li>
+			</ul>
+		</div><!-- .main-nav -->
+					</div><!-- .inside-navigation -->
+		</nav><!-- #site-navigation -->
 		
-	</head>
-
-	<body class="post-template-default single single-post postid-25 single-format-standard custom-background wp-embed-responsive singular missing-post-thumbnail has-no-pagination showing-comments show-avatars footer-top-visible">
-
-		<a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>
-		<header id="site-header" class="header-footer-group" role="banner">
-
-			<div class="header-inner section-inner">
-
-				<div class="header-titles-wrapper">
-
-					
-					<div class="header-titles">
-
-						<div class="site-title faux-heading"><a href="http://www.vision-01.com/"></a></div>
-					</div><!-- .header-titles -->
-
-					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"  data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
-						<span class="toggle-inner">
-							<span class="toggle-icon">
-								<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewbox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)" /></svg>							</span>
-							<span class="toggle-text">Menu</span>
-						</span>
-					</button><!-- .nav-toggle -->
-
-				</div><!-- .header-titles-wrapper -->
-
-				<div class="header-navigation-wrapper">
-
-					
-						<div class="header-toggles hide-no-js">
-
-						
-							<div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
-
-								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
-									<span class="toggle-inner">
-										<span class="toggle-text">Menu</span>
-										<span class="toggle-icon">
-											<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewbox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)" /></svg>										</span>
-									</span>
-								</button><!-- .nav-toggle -->
-
-							</div><!-- .nav-toggle-wrapper -->
-
-							
-						</div><!-- .header-toggles -->
-						
-				</div><!-- .header-navigation-wrapper -->
-
-			</div><!-- .header-inner -->
-
+	<div id="page" class="hfeed site grid-container container grid-parent">
+				<div id="content" class="site-content">
 			
-		</header><!-- #site-header -->
-
-		
-<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
-
-	<div class="menu-modal-inner modal-inner">
-
-		<div class="menu-wrapper section-inner">
-
-			<div class="menu-top">
-
-				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".menu-modal">
-					<span class="toggle-text">Close Menu</span>
-					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>				</button><!-- .nav-toggle -->
-
-				
-					<nav class="expanded-menu mobile-menu" aria-label="Expanded" role="navigation">
-
-						<ul class="modal-menu reset-list-style">
-							<li id="menu-item-199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-199"><div class="ancestor-wrapper"><a href="http://www.vision-01.com/">Home</a></div><!-- .ancestor-wrapper --></li>
-<li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><div class="ancestor-wrapper"><a href="http://www.vision-01.com/index.php/i-meis/computer-vision-2/">Computer Vision</a></div><!-- .ancestor-wrapper --></li>
-<li id="menu-item-187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187"><div class="ancestor-wrapper"><a href="http://www.vision-01.com/index.php/i-meis/deep-learning/">Deep Learning</a></div><!-- .ancestor-wrapper --></li>
-<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><div class="ancestor-wrapper"><a href="http://www.vision-01.com/index.php/about/">About</a></div><!-- .ancestor-wrapper --></li>
-						</ul>
-
-					</nav>
-
-					
-			</div><!-- .menu-top -->
-
-			<div class="menu-bottom">
-
-				
-			</div><!-- .menu-bottom -->
-
-		</div><!-- .menu-wrapper -->
-
-	</div><!-- .menu-modal-inner -->
-
-</div><!-- .menu-modal -->
-
-<main id="site-content" role="main">
-
-	
-<article class="post-25 post type-post status-publish format-standard hentry category-computer-vision" id="post-25">
-
-	
-<header class="entry-header has-text-align-center header-footer-group">
-
-	<div class="entry-header-inner section-inner medium">
-
-		
-			<div class="entry-categories">
-				<span class="screen-reader-text">Categories</span>
-				<div class="entry-categories-inner">
-					<a href="http://www.vision-01.com/index.php/category/computer-vision/" rel="category tag">Computer Vision</a>				</div><!-- .entry-categories-inner -->
-			</div><!-- .entry-categories -->
-
-			<h1 class="entry-title">TV Script Generation</h1>
-		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
-
-			<ul class="post-meta">
-
-									<li class="post-author meta-wrapper">
-						<span class="meta-icon">
-							<span class="screen-reader-text">Post author</span>
-							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewbox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z" /></svg>						</span>
-						<span class="meta-text">
-							By <a href="http://www.vision-01.com/index.php/author/meisam/">meisam</a>						</span>
-					</li>
-										<li class="post-date meta-wrapper">
-						<span class="meta-icon">
-							<span class="screen-reader-text">Post date</span>
-							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewbox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg>						</span>
-						<span class="meta-text">
-							<a href="http://www.vision-01.com/index.php/2020/04/19/new/">April 19, 2020</a>
-						</span>
-					</li>
-										<li class="post-sticky meta-wrapper">
-						<span class="meta-icon">
-							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewbox="0 0 15 18"><path d="M12.598889,2.699762 C12.598889,2.20275 12.195981,1.799841 11.698969,1.799841 L2.699762,1.799841 C2.20275,1.799841 1.799841,2.20275 1.799841,2.699762 L1.799841,15.349777 L6.676297,11.866594 C6.989197,11.643094 7.409533,11.643094 7.722434,11.866594 L12.598889,15.349777 L12.598889,2.699762 Z M1.422989,17.830788 C0.82736,18.256238 0,17.830464 0,17.098493 L0,2.699762 C0,1.208725 1.208725,0 2.699762,0 L11.698969,0 C13.190006,0 14.398731,1.208725 14.398731,2.699762 L14.398731,17.098493 C14.398731,17.830464 13.571371,18.256238 12.975742,17.830788 L7.199365,13.704805 L1.422989,17.830788 Z" /></svg>						</span>
-						<span class="meta-text">
-							Sticky post						</span>
-					</li>
-					
-			</ul><!-- .post-meta -->
-
-		</div><!-- .post-meta-wrapper -->
-
-		
-	</div><!-- .entry-header-inner -->
-
-</header><!-- .entry-header -->
-
-	<div class="post-inner thin">
-
-		<div class="entry-content">
-
+	<div id="primary" class="content-area grid-parent mobile-grid-100 grid-75 tablet-grid-75">
+		<main id="main" class="site-main">
 			
-<p>In this project, you&#8217;ll generate your own&nbsp;<a href="https://en.wikipedia.org/wiki/Seinfeld">Seinfeld</a>&nbsp;TV scripts using RNNs. You&#8217;ll be using part of the&nbsp;<a href="https://www.kaggle.com/thec03u5/seinfeld-chronicles#scripts.csv">Seinfeld dataset</a>&nbsp;of scripts from 9 seasons. The Neural Network you&#8217;ll build will generate a new ,&#8221;fake&#8221; TV script, based on patterns it recognizes in this training data.</p>
+<article id="post-25" class="post-25 post type-post status-publish format-standard hentry category-uncategorized" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		
+		<header class="entry-header">
+			<h1 class="entry-title" itemprop="headline">Images as functions</h1>			<div class="entry-meta">
+				<span class="posted-on"><a href="http://www.vision-01.com/index.php/2020/04/19/new/" title="7:00 am" rel="bookmark"><time class="updated" datetime="2020-04-22T19:23:52+00:00" itemprop="dateModified">April 22, 2020</time><time class="entry-date published" datetime="2020-04-19T07:00:18+00:00" itemprop="datePublished">April 19, 2020</time></a></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="http://www.vision-01.com/index.php/author/meisam/" title="View all posts by meisam" rel="author" itemprop="url"><span class="author-name" itemprop="name">meisam</span></a></span></span> 			</div><!-- .entry-meta -->
+				</header><!-- .entry-header -->
+
+		
+		<div class="entry-content" itemprop="text">
+			
+<p></p>
 
 
 
-<p class="has-medium-font-size">Get the Data</p>
+<p>Images can be represented by 2D matrices of points with intensity values.<br><p class="ql-center-displayed-equation" style="line-height: 18px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img src="http://www.vision-01.com/wp-content/ql-cache/quicklatex.com-9d64936678879d8a1701c0e8e630dd3f_l3.png" height="18" width="107" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#105;&#109;&#97;&#103;&#101;&#32;&#61;&#32;&#91;&#97;&#95;&#123;&#105;&#106;&#125;&#93;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"/></p><br>If the image is in gray scale, <img src="http://www.vision-01.com/wp-content/ql-cache/quicklatex.com-41d4a89db3722950dc94351832a1bcd9_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#95;&#123;&#105;&#106;&#125;" title="Rendered by QuickLaTeX.com" height="14" width="20" style="vertical-align: -6px;"/> s are scaler values representing the intensity of the point. Depending on the scale, it might be described in floating numbers between 0 and 1 or integers between 0 and 255, or any arbitrary system to represent ranges between black and white (black being 0 and white for 0 in the 0 to 1 system).</p>
 
 
 
-<p>The data is already provided for you in ./data/Seinfeld_Scripts.txt and you&#8217;re encouraged to open that file and look at the text.</p>
+<p>In the case of colored images, the <img src="http://www.vision-01.com/wp-content/ql-cache/quicklatex.com-41d4a89db3722950dc94351832a1bcd9_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#95;&#123;&#105;&#106;&#125;" title="Rendered by QuickLaTeX.com" height="14" width="20" style="vertical-align: -6px;"/>&#8216;s are vectors of three elements corresponding to red-green-blue intensity values. This is only one way of representing colored images. There are a number of other possibilities. A popular example is the <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">hue-saturation-value (HSV)</a>.</p>
 
 
 
-<div class="wp-block-codemirror-blocks-code-block code-block"><pre class="CodeMirror" data-setting="{&quot;mode&quot;:&quot;python&quot;,&quot;mime&quot;:&quot;text/x-python&quot;,&quot;theme&quot;:&quot;material&quot;,&quot;lineNumbers&quot;:false,&quot;styleActiveLine&quot;:false,&quot;lineWrapping&quot;:false,&quot;readOnly&quot;:false,&quot;languageLabel&quot;:&quot;no&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;modeName&quot;:&quot;python&quot;}">&quot;&quot;&quot;
-DON'T MODIFY ANYTHING IN THIS CELL
-&quot;&quot;&quot;
-# load in data
-import helper
-data_dir = './data/Seinfeld_Scripts.txt'
-text = helper.load_data(data_dir)</pre></div>
+<h2>The RGB system</h2>
 
 
 
-<pre class="wp-block-code"><code language="cpp">torch.Size([10, 5])
-tensor([[  4,   5,   6,   7,   8],
-        [ 29,  30,  31,  32,  33],
-        [ 21,  22,  23,  24,  25],
-        [ 19,  20,  21,  22,  23],
-        [ 14,  15,  16,  17,  18],
-        [  1,   2,   3,   4,   5],
-        [ 33,  34,  35,  36,  37],
-        [  2,   3,   4,   5,   6],
-        [ 23,  24,  25,  26,  27],
-        [  7,   8,   9,  10,  11]])
-
-torch.Size([10])
-tensor([  9,  34,  26,  24,  19,   6,  38,   7,  28,  12])
-</code></pre>
+<p>The RGB system decomposes the image in three channels: Red, Green and Blue.</p>
 
 
 
-your code here
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="http://www.vision-01.com/wp-content/uploads/2020/04/RGB-1024x497.png" alt="" class="wp-image-292" width="407" height="197" srcset="http://www.vision-01.com/wp-content/uploads/2020/04/RGB-1024x497.png 1024w, http://www.vision-01.com/wp-content/uploads/2020/04/RGB-300x146.png 300w, http://www.vision-01.com/wp-content/uploads/2020/04/RGB-768x373.png 768w, http://www.vision-01.com/wp-content/uploads/2020/04/RGB-1536x746.png 1536w, http://www.vision-01.com/wp-content/uploads/2020/04/RGB.png 1610w" sizes="(max-width: 407px) 100vw, 407px" /></figure></div>
 
+
+
+<p>The intensity vales are stored in a 2D matrix for each channel. Here we see an example of the color decompositions:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="http://www.vision-01.com/wp-content/uploads/2020/04/rgb_fruits-1024x186.png" alt="" class="wp-image-294" srcset="http://www.vision-01.com/wp-content/uploads/2020/04/rgb_fruits-1024x186.png 1024w, http://www.vision-01.com/wp-content/uploads/2020/04/rgb_fruits-300x54.png 300w, http://www.vision-01.com/wp-content/uploads/2020/04/rgb_fruits-768x140.png 768w, http://www.vision-01.com/wp-content/uploads/2020/04/rgb_fruits.png 1156w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>The numbers on the x and y axis show the indices of the points, or on other terms, the indices of the elements in the matrix. The same for the famous Lenna&#8217;s picture:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="http://www.vision-01.com/wp-content/uploads/2020/04/rgb_lenna-1024x240.png" alt="" class="wp-image-296" srcset="http://www.vision-01.com/wp-content/uploads/2020/04/rgb_lenna-1024x240.png 1024w, http://www.vision-01.com/wp-content/uploads/2020/04/rgb_lenna-300x70.png 300w, http://www.vision-01.com/wp-content/uploads/2020/04/rgb_lenna-768x180.png 768w, http://www.vision-01.com/wp-content/uploads/2020/04/rgb_lenna.png 1135w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Now to see the intensities in a comparable way, we show all in the gray scale. The most left image is the combination of all three channels, i.e., the gray scale version of the original picture.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="http://www.vision-01.com/wp-content/uploads/2020/04/gray_lenna-1024x240.png" alt="" class="wp-image-298" srcset="http://www.vision-01.com/wp-content/uploads/2020/04/gray_lenna-1024x240.png 1024w, http://www.vision-01.com/wp-content/uploads/2020/04/gray_lenna-300x70.png 300w, http://www.vision-01.com/wp-content/uploads/2020/04/gray_lenna-768x180.png 768w, http://www.vision-01.com/wp-content/uploads/2020/04/gray_lenna.png 1135w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Probably it is more obvious that the image is an intensity function of space when we see the 3D surface plot of the gray scale intensity of the original picture (the summed over the channels):</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="http://www.vision-01.com/wp-content/uploads/2020/04/3d_lenna.png" alt="" class="wp-image-299" srcset="http://www.vision-01.com/wp-content/uploads/2020/04/3d_lenna.png 681w, http://www.vision-01.com/wp-content/uploads/2020/04/3d_lenna-300x246.png 300w" sizes="(max-width: 681px) 100vw, 681px" /></figure>
+
+
+
+<h2>The HSL/HSV system</h2>
+
+
+
+<p>HSL (hue, saturation, lightness) and HSV (hue, saturation, value) are alternative representations of the RGB color model, designed in the 1970s by computer graphics researchers to more closely align with the way human vision perceives color-making attributes. In these models, colors of each hue are arranged in a radial slice, around a central axis of neutral colors which ranges from black at the bottom to white at the top. The HSV representation models the way paints of different colors mix together, with the saturation dimension resembling various tints of brightly colored paint, and the value dimension resembling the mixture of those paints with varying amounts of black or white paint. The HSL model attempts to resemble more perceptual color models such as the Natural Color System (NCS) or Munsell color system, placing fully saturated colors around a circle at a lightness value of ​1⁄2, where a lightness value of 0 or 1 is fully black or white, respectively.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="http://www.vision-01.com/wp-content/uploads/2020/04/heu-1024x252.png" alt="" class="wp-image-301" srcset="http://www.vision-01.com/wp-content/uploads/2020/04/heu-1024x252.png 1024w, http://www.vision-01.com/wp-content/uploads/2020/04/heu-300x74.png 300w, http://www.vision-01.com/wp-content/uploads/2020/04/heu-768x189.png 768w, http://www.vision-01.com/wp-content/uploads/2020/04/heu.png 1154w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Now let us decompose the pictures in HSV system:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="http://www.vision-01.com/wp-content/uploads/2020/04/heu_fruit-708x1024.png" alt="" class="wp-image-303" srcset="http://www.vision-01.com/wp-content/uploads/2020/04/heu_fruit-708x1024.png 708w, http://www.vision-01.com/wp-content/uploads/2020/04/heu_fruit-207x300.png 207w, http://www.vision-01.com/wp-content/uploads/2020/04/heu_fruit-768x1111.png 768w, http://www.vision-01.com/wp-content/uploads/2020/04/heu_fruit-1061x1536.png 1061w, http://www.vision-01.com/wp-content/uploads/2020/04/heu_fruit.png 1161w" sizes="(max-width: 708px) 100vw, 708px" /></figure>
 		</div><!-- .entry-content -->
 
-	</div><!-- .post-inner -->
+					<footer class="entry-meta">
+				<span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://www.vision-01.com/index.php/category/uncategorized/" rel="category tag">Uncategorized</a></span> 		<nav id="nav-below" class="post-navigation">
+			<span class="screen-reader-text">Post navigation</span>
 
-	<div class="section-inner">
-		
-	</div><!-- .section-inner -->
+			<div class="nav-next"><span class="next" title="Next"><a href="http://www.vision-01.com/index.php/2020/04/22/camera-technology/" rel="next">Camera Technology</a></span></div>		</nav><!-- #nav-below -->
+					</footer><!-- .entry-meta -->
+			</div><!-- .inside-article -->
+</article><!-- #post-## -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
 
-	
-</article><!-- .post -->
-
-</main><!-- #site-content -->
-
-
-	<div class="footer-nav-widgets-wrapper header-footer-group">
-
-		<div class="footer-inner section-inner">
-
-			
-			
-				<aside class="footer-widgets-outer-wrapper" role="complementary">
-
-					<div class="footer-widgets-wrapper">
-
-						
-							<div class="footer-widgets column-one grid-item">
-								<div class="widget widget_categories"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">Categories</h2>		<ul>
-				<li class="cat-item cat-item-4"><a href="http://www.vision-01.com/index.php/category/computer-vision/">Computer Vision</a>
+	<div id="right-sidebar" class="widget-area grid-25 tablet-grid-25 grid-parent sidebar" itemtype="https://schema.org/WPSideBar" itemscope>
+	<div class="inside-right-sidebar">
+		<aside id="categories-2" class="widget inner-padding widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+				<li class="cat-item cat-item-1"><a href="http://www.vision-01.com/index.php/category/uncategorized/">Uncategorized</a>
 </li>
 		</ul>
-			</div></div>							</div>
+			</aside>	</div><!-- .inside-right-sidebar -->
+</div><!-- #secondary -->
 
-						
-						
-					</div><!-- .footer-widgets-wrapper -->
-
-				</aside><!-- .footer-widgets-outer-wrapper -->
-
-			
-		</div><!-- .footer-inner -->
-
-	</div><!-- .footer-nav-widgets-wrapper -->
+	</div><!-- #content -->
+</div><!-- #page -->
 
 
-			<footer id="site-footer" role="contentinfo" class="header-footer-group">
+<div class="site-footer">
+			<footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container grid-parent">
+								<div class="copyright-bar">
+					<span class="copyright">&copy; 2020 </span> &bull; Powered by <a href="https://generatepress.com/" itemprop="url">GeneratePress</a>				</div>
+			</div>
+		</footer><!-- .site-info -->
+		</div><!-- .site-footer -->
 
-				<div class="section-inner">
+<!--[if lte IE 11]>
+<script type='text/javascript' src='http://www.vision-01.com/wp-content/themes/generatepress/js/classList.min.js?ver=2.4.2'></script>
+<![endif]-->
+<script type='text/javascript' src='http://www.vision-01.com/wp-content/themes/generatepress/js/menu.min.js?ver=2.4.2'></script>
+<script type='text/javascript' src='http://www.vision-01.com/wp-content/themes/generatepress/js/a11y.min.js?ver=2.4.2'></script>
+<script type='text/javascript' src='http://www.vision-01.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
 
-					<div class="footer-credits">
-
-						<p class="footer-copyright">&copy;
-							2020							<a href="http://www.vision-01.com/"></a>
-						</p><!-- .footer-copyright -->
-
-						<p class="powered-by-wordpress">
-							<a href="https://wordpress.org/">
-								Powered by WordPress							</a>
-						</p><!-- .powered-by-wordpress -->
-
-					</div><!-- .footer-credits -->
-
-					<a class="to-the-top" href="#site-header">
-						<span class="to-the-top-long">
-							To the top <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-long -->
-						<span class="to-the-top-short">
-							Up <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-short -->
-					</a><!-- .to-the-top -->
-
-				</div><!-- .section-inner -->
-
-			</footer><!-- #site-footer -->
-
-		<script src='http://www.vision-01.com/wp-content/plugins/wp-codemirror-block/vendor/codemirror/lib/codemirror.min.js?ver=5.40.5'></script>
-<script>
-var wpcm = {"plugin_url":"http://www.vision-01.com/wp-content/plugins/wp-codemirror-block","assets":[],"panelOptions":{"showPanel":true,"languageLabel":"language","runButton":true,"fullScreenButton":true,"copyButton":true},"view":"public"}
-</script>
-<script src='http://www.vision-01.com/wp-content/plugins/wp-codemirror-block/assets/js/autoLoadAssets.min.js?ver=1587294739'></script>
-<script src='http://www.vision-01.com/wp-content/plugins/wp-codemirror-block/assets/js/init.min.js?ver=1587294739'></script>
-<script src='http://www.vision-01.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
-	<script>
-	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
-	</script>
-	
-	</body>
+</body>
 </html>
