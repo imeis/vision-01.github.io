@@ -28,8 +28,7 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-quicklatex-format-css'  href='http://www.vision-01.com/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=5.4' type='text/css' media='all' />
-<link rel='stylesheet' id='generate-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic' type='text/css' media='all' />
+	<link rel='stylesheet' id='generate-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css'  href='http://www.vision-01.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4' type='text/css' media='all' />
 <link rel='stylesheet' id='codemirror-blocks--css'  href='http://www.vision-01.com/wp-content/plugins/wp-codemirror-block/assets/blocks/blocks.style.build.min.css?ver=1587294739' type='text/css' media='all' />
 <link rel='stylesheet' id='generate-style-grid-css'  href='http://www.vision-01.com/wp-content/themes/generatepress/css/unsemantic-grid.min.css?ver=2.4.2' type='text/css' media='all' />
@@ -39,9 +38,6 @@ body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover
 </style>
 <link rel='stylesheet' id='generate-mobile-style-css'  href='http://www.vision-01.com/wp-content/themes/generatepress/css/mobile.min.css?ver=2.4.2' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='http://www.vision-01.com/wp-content/themes/generatepress/css/font-awesome.min.css?ver=4.7' type='text/css' media='all' />
-<script type='text/javascript' src='http://www.vision-01.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-<script type='text/javascript' src='http://www.vision-01.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='http://www.vision-01.com/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0'></script>
 <link rel='https://api.w.org/' href='http://www.vision-01.com/index.php/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.vision-01.com/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.vision-01.com/wp-includes/wlwmanifest.xml" /> 
@@ -87,21 +83,17 @@ body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover
 		
 		<header class="entry-header">
 			<h1 class="entry-title" itemprop="headline">Images as functions</h1>			<div class="entry-meta">
-				<span class="posted-on"><a href="http://www.vision-01.com/index.php/2020/04/19/new/" title="7:00 am" rel="bookmark"><time class="updated" datetime="2020-04-22T19:23:52+00:00" itemprop="dateModified">April 22, 2020</time><time class="entry-date published" datetime="2020-04-19T07:00:18+00:00" itemprop="datePublished">April 19, 2020</time></a></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="http://www.vision-01.com/index.php/author/meisam/" title="View all posts by meisam" rel="author" itemprop="url"><span class="author-name" itemprop="name">meisam</span></a></span></span> 			</div><!-- .entry-meta -->
+				<span class="posted-on"><a href="http://www.vision-01.com/index.php/2020/04/19/new/" title="7:00 am" rel="bookmark"><time class="updated" datetime="2020-04-23T20:31:38+00:00" itemprop="dateModified">April 23, 2020</time><time class="entry-date published" datetime="2020-04-19T07:00:18+00:00" itemprop="datePublished">April 19, 2020</time></a></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="http://www.vision-01.com/index.php/author/meisam/" title="View all posts by meisam" rel="author" itemprop="url"><span class="author-name" itemprop="name">meisam</span></a></span></span> 			</div><!-- .entry-meta -->
 				</header><!-- .entry-header -->
 
 		
 		<div class="entry-content" itemprop="text">
 			
-<p></p>
+<p>Images can be represented by 2D matrices of points with intensity values.<br><span class="katex-eq" data-katex-display="false">image = [a_{ij}].</span><br>If the image is in gray scale,<span class="katex-eq" data-katex-display="false">a_{ij}</span> are scaler values representing the intensity of the point. Depending on the scale, it might be described in floating numbers between <span class="katex-eq" data-katex-display="false">0</span> and <span class="katex-eq" data-katex-display="false">1</span> or integers between <span class="katex-eq" data-katex-display="false">0</span> and <span class="katex-eq" data-katex-display="false">255</span>, or any arbitrary system to represent ranges between black and white (black being <span class="katex-eq" data-katex-display="false">0</span> and white for <span class="katex-eq" data-katex-display="false">0</span> in the <span class="katex-eq" data-katex-display="false">0</span> to <span class="katex-eq" data-katex-display="false">1</span> system).</p>
 
 
 
-<p>Images can be represented by 2D matrices of points with intensity values.<br><p class="ql-center-displayed-equation" style="line-height: 18px;"><span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img src="http://www.vision-01.com/wp-content/ql-cache/quicklatex.com-9d64936678879d8a1701c0e8e630dd3f_l3.png" height="18" width="107" class="ql-img-displayed-equation quicklatex-auto-format" alt="&#92;&#91;&#105;&#109;&#97;&#103;&#101;&#32;&#61;&#32;&#91;&#97;&#95;&#123;&#105;&#106;&#125;&#93;&#46;&#92;&#93;" title="Rendered by QuickLaTeX.com"/></p><br>If the image is in gray scale, <img src="http://www.vision-01.com/wp-content/ql-cache/quicklatex.com-41d4a89db3722950dc94351832a1bcd9_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#95;&#123;&#105;&#106;&#125;" title="Rendered by QuickLaTeX.com" height="14" width="20" style="vertical-align: -6px;"/> s are scaler values representing the intensity of the point. Depending on the scale, it might be described in floating numbers between 0 and 1 or integers between 0 and 255, or any arbitrary system to represent ranges between black and white (black being 0 and white for 0 in the 0 to 1 system).</p>
-
-
-
-<p>In the case of colored images, the <img src="http://www.vision-01.com/wp-content/ql-cache/quicklatex.com-41d4a89db3722950dc94351832a1bcd9_l3.png" class="ql-img-inline-formula quicklatex-auto-format" alt="&#97;&#95;&#123;&#105;&#106;&#125;" title="Rendered by QuickLaTeX.com" height="14" width="20" style="vertical-align: -6px;"/>&#8216;s are vectors of three elements corresponding to red-green-blue intensity values. This is only one way of representing colored images. There are a number of other possibilities. A popular example is the <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">hue-saturation-value (HSV)</a>.</p>
+<p>In the case of colored images, the <span class="katex-eq" data-katex-display="false">a_{ij}</span>s are vectors of three elements corresponding to red-green-blue intensity values. This is only one way of representing colored images. There are a number of other possibilities. A popular example is the <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">hue-saturation-value (HSV)</a>.</p>
 
 
 
@@ -117,7 +109,7 @@ body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover
 
 
 
-<p>The intensity vales are stored in a 2D matrix for each channel. Here we see an example of the color decompositions:</p>
+<p>The intensity vales are stored in a <span class="katex-eq" data-katex-display="false">2D</span> matrix for each channel. Here we see an example of the color decompositions:</p>
 
 
 
@@ -125,7 +117,7 @@ body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover
 
 
 
-<p>The numbers on the x and y axis show the indices of the points, or on other terms, the indices of the elements in the matrix. The same for the famous Lenna&#8217;s picture:</p>
+<p>The numbers on the <span class="katex-eq" data-katex-display="false">x</span> and <span class="katex-eq" data-katex-display="false">y</span> axis show the indices of the points, or on other terms, the indices of the elements in the matrix. The same for the famous Lenna&#8217;s picture:</p>
 
 
 
@@ -141,7 +133,7 @@ body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover
 
 
 
-<p>Probably it is more obvious that the image is an intensity function of space when we see the 3D surface plot of the gray scale intensity of the original picture (the summed over the channels):</p>
+<p>Probably it is more obvious that the image is an intensity function of space when we see the <span class="katex-eq" data-katex-display="false">3D</span> surface plot of the gray scale intensity of the original picture (the summed over the channels):</p>
 
 
 
@@ -201,12 +193,35 @@ body{background-color:#efefef;color:#3a3a3a;}a, a:visited{color:#1e73be;}a:hover
 		</footer><!-- .site-info -->
 		</div><!-- .site-footer -->
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const eles = document.querySelectorAll(".katex-eq");
+                for(let idx=0; idx < eles.length; idx++) {
+                    const ele = eles[idx];
+                    try {
+                        katex.render(
+                            ele.textContent,
+                            ele,
+                            {
+                                displayMode: ele.getAttribute("data-katex-display") === 'true',
+                                throwOnError: false
+                            }
+                        );
+                    } catch(n) {
+                        ele.style.color="red";
+                        ele.textContent = n.message;
+                    }
+                }
+            });
+        </script>
+        <link rel='stylesheet' id='katex-css'  href='http://www.vision-01.com/wp-content/plugins/katex/assets/katex-0.11.1/katex.min.css?ver=5.4' type='text/css' media='all' />
 <!--[if lte IE 11]>
 <script type='text/javascript' src='http://www.vision-01.com/wp-content/themes/generatepress/js/classList.min.js?ver=2.4.2'></script>
 <![endif]-->
 <script type='text/javascript' src='http://www.vision-01.com/wp-content/themes/generatepress/js/menu.min.js?ver=2.4.2'></script>
 <script type='text/javascript' src='http://www.vision-01.com/wp-content/themes/generatepress/js/a11y.min.js?ver=2.4.2'></script>
 <script type='text/javascript' src='http://www.vision-01.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
+<script type='text/javascript' src='http://www.vision-01.com/wp-content/plugins/katex/assets/katex-0.11.1/katex.min.js?ver=5.4'></script>
 
 </body>
 </html>

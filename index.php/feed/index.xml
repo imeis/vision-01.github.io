@@ -15,7 +15,7 @@
 	<atom:link href="http://www.vision-01.com/index.php/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.vision-01.com/</link>
 	<description></description>
-	<lastBuildDate>Wed, 22 Apr 2020 19:48:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Apr 2020 20:31:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -53,7 +53,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">http://www.vision-01.com/?p=25</guid>
 
-					<description><![CDATA[Images can be represented by 2D matrices of points with intensity values. &#160; &#160; If the image is in gray scale, s are scaler values representing the intensity of the point. Depending on the scale, it might be described in floating numbers between 0 and 1 or integers between 0 and 255, or any arbitrary ... <a title="Images as functions" class="read-more" href="http://www.vision-01.com/index.php/2020/04/19/new/">Read more <span class="screen-reader-text">Images as functions</span></a>]]></description>
+					<description><![CDATA[Images can be represented by 2D matrices of points with intensity values. If the image is in gray scale, are scaler values representing the intensity of the point. Depending on the scale, it might be described in floating numbers between and or integers between and , or any arbitrary system to represent ranges between black ... <a title="Images as functions" class="read-more" href="http://www.vision-01.com/index.php/2020/04/19/new/">Read more <span class="screen-reader-text">Images as functions</span></a>]]></description>
 		
 		
 		
